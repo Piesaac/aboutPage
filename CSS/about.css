@@ -1,0 +1,238 @@
+
+        p {
+          font-family: "Basic Sans FS", sans-serif;
+        }
+        
+        #trial:hover {
+            background-color: #00004d;
+            
+        }
+        #trial {
+            background-color: #003366;
+        }
+  
+       
+        .container-fluid{
+         padding: 0;
+         min-width: 100%;
+        }
+
+        .container {
+         padding: 0;
+        }
+
+        #navbar {
+         overflow: hidden;
+         background-color: #003366;
+         padding: 115px 10px; /* Large padding which will shrink on scroll (using JS) */
+         transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+         position: fixed; /* Sticky/fixed navbar */
+         width: 100%;
+         top: 0; /* At the top */
+         z-index: 999;
+         height: 60px;
+        }
+     
+        #navbar #logo {
+         font-size: 100px;
+         font-weight: bold;
+         transition: 0.3s;
+        }
+      
+        #navbar_a {
+         float: left;
+         color: black;
+         background-color: white;
+         text-align: center;
+         margin-top: -35px;
+         padding: 12px;
+         text-decoration: none;
+         font-size: 18px;
+         line-height: 25px;
+         border-radius: 4px;
+         }
+        
+        #navbar_a:hover {
+          background-color: lightgrey;
+        }
+        #navbar a.active {
+          background-color: gold;
+          color: white;
+        }
+
+        #navbar-right {
+         float: right;
+         }
+       
+        .bar {
+         background: rgb(220, 235, 18, 0.7);
+         border-top: 3px solid #ccc;
+         border-bottom: 3px solid #ccc;
+         margin-top: 5.0em;
+         height: 400px;
+         opacity: 0.0;
+         }
+
+         .forumHead {
+         opacity: 0.0;
+         border-top: 3px solid #ccc;
+         border-bottom: 3px solid #ccc;
+         margin-top: 5.0em;
+         }
+
+        
+        .about {
+          font-family: Arial, Helvetica, sans-serif;
+          text-align: center;
+          color: black;
+        }
+/* the animation */
+       
+        #logo {
+          height: 150px;
+          width: 450px;
+          bottom: 20px;
+          margin-left: 39%;
+          margin-top: -50px;
+          transition: width 1s, height 0.4s, margin 0.6s;
+        }
+
+        #faded {
+          background: rgb(220, 235, 18, 0.7);
+        }
+
+/* text over image */
+        #bottom-left-title {
+          font-size: 40pt;
+          color: black;
+        }
+
+        #bottom-left-text {
+          font-size: 20pt;
+          color: black;
+        }
+        
+        .bottom-left {
+          position: absolute;
+          bottom: 15%;
+          left: 5%;
+          background-color: rgb(255, 255, 255, 0.8);
+        }
+
+        .bottom-left-2 {
+          position: absolute;
+          bottom: 0%;
+          left: 5%;
+          background-color: rgb(255, 255, 255, 0.8);
+        }
+
+      
+
+      /* about us text */
+      
+      
+      .aboutUsText-title {
+        font-size: 30pt;
+        color: black;
+      }
+
+
+      .aboutUsText {
+        font-size: 20pt;
+        color: black;
+      }
+
+      .aboutUsBody {
+        background-color: whitesmoke;
+      }
+
+
+  /*drop down menu for about us page */
+
+  .tab {
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 30%;
+    height: 300px;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current "tab button" class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    width: 70%;
+    border-left: none;
+    height: 300px;
+  }
+
+  .tabtext-title {
+    font-size: 15pt;
+    font-family: "Basic Sans FS", sans-serif;
+  }
+
+  .tabtext {
+    font-size: 12pt;
+    font-family: "Basic Sans FS", sans-serif;
+  } 
+
+/* Map */
+#map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}
+
+
+/* Navbar Text */
+
+.navbarText {
+  font-family: "Basic Sans FS", sans-serif;
+  color: black;
+  font-size: 14px;
+}
+
+/*Parallax image */
+
+#parallaxImage {
+  max-width: 115%; 
+  max-height: 40%; 
+  border: 5px solid #FED701;
+}       
+
+/* scrolling image */
+
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
