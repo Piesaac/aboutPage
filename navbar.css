@@ -1,0 +1,68 @@
+/*fixed navbar hides on small screens*/
+@media screen and (min-width: 401px) and (max-width: 1024px) {
+  #navbar-2 { display: none; }
+}
+  
+@media screen and (min-width: 0px) and (max-width: 400px) {
+  #navbar-2 { display: block; }
+}
+  
+  
+/*responsive navbar hides on small screens*/
+@media screen and (min-width: 401px) and (max-width: 1024px) {
+  #navbar { display: block; }
+}
+  
+@media screen and (min-width: 0px) and (max-width: 400px) {
+  #navbar { display: none; }
+}
+  
+#navbar {
+  overflow: hidden;
+  background-color: #003366;
+  padding: 115px 10px; /* Large padding which will shrink on scroll (using JS) */
+  transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+  position: fixed; /* Sticky/fixed navbar */
+  width: 100%;
+  top: 0; /* At the top */
+  z-index: 999;
+  height: 60px;
+}
+  
+.navbtn {
+  height: 25%;
+  width: 40%;
+  border-radius: 10px;
+  background-color: whitesmoke;
+}
+  
+.navbtn-text {
+  font-family: 'Basic Sans Sf', sans-serif;
+  font-size: 1.5vw;
+  font-weight: bold;
+  color: black;
+  margin: auto;
+}
+  
+  
+@media screen and (min-width: 0px) and (max-width: 400px) {
+  #navtest { height: 7%; }
+}
+
+
+.navbtn:link, .navbtn:visited {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+ 
+#navtest {
+  background-color: #003366;
+  width: 105%;
+  height: 20%;
+  top: 0; /* At the top */
+  z-index: 999;
+}
