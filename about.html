@@ -1,137 +1,75 @@
-<html lang="en">
+<html>
     <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <link rel="stylesheet" href="CSS/about.css">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-      <script src="JS/navbar.JS"></script>
-      <script src="JS/about.js"></script>
-      <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
-      <link rel="icon" href="Images/icon.png">
-       
-        <title>About us</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/about.css">
+        <link rel="stylesheet" href="css/navbar.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="js/navbar.JS"></script>
+        <script src="js/about.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+        <link rel="icon" href="images/icon.png">
     </head>
     <body>
+        <div class="container-fluid">
+            <div class="row" id="navtest">
+                <div class="col-xs-4">
+                  <img src="Images/image.png"  id="logo">
+                </div>
+                <div class="col-xs-2">   
+                  <a href="index.html" class="navbtn"><span class="navbtn-text">Home</span></a>
+                </div>
+                <div class="col-xs-2">   
+                  <a href="news.html" class="navbtn"><span class="navbtn-text">News</span></a>
+                </div>
+                <div class="col-xs-2"> 
+                  <a href="gallery.html" class="navbtn"><span class="navbtn-text">Gallery</span></a>  
+                </div>
+                <div class="col-xs-2">   
+                  <a href="forum.html" class="navbtn"><span class="navbtn-text">Apply</span></a>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12" id="parallax">
+                    <img src="Images/cropProfile2.jpg" id="parallax-image">
+                    <div class="bottom-left">
+                        <p id="bottom-left-title">
+                          <b>
+                          About us
+                          </b>
+                        </p>
+                    </div>
+                    <div class="bottom-left-2">       
+                        <p id="bottom-left-text">
+                          A community of coders working together to achieve great things
+                        </p>
+                    </div> 
+                </div>
+            </div>
+            <div class="row aboutus-body">
+                <div class="col-xs-8">
+                    <p class="aboutus-text-title">
+                    </br>
+                      About us
+                    </p>
+                    <p class="aboutus-text">
+                     The Creative Coding Collective is the first cohort of the Creative Coding Porgram ran by Maiona Coding and The Albany. We have come together on this project to share what we have learnt so far and also encourage those who are interested in coding and tech to join our coding community, while also giving future participants a platform to express their creativity.
+                    </p>
+                </div>
+                <div class="col-xs-4">
+                </div>
+            </div>       
 
-      <div class="container-fluid" id="navbar">  
-        <div class="row" >
-          <div class="col-xs-8">
-            <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-            <img src="Images/image.png" style="height: 80px;width: 270px;"id="logo">
-          </div>
-          <div class="col-xs-1" id="trial">   
-            <a href="index.html" class="navbarText" id="navbar_a"></br><b>Home</b></a>
-          </div>
-          <div class="col-xs-1" id="trial">   
-            <a href="news.html" class="navbarText" id="navbar_a"></br><b>News</b></a>
-          </div>
-          <div class="col-xs-1" id="trial"> 
-            <a href="gallery.html" class="navbarText" id="navbar_a"></br><b>Gallery</b></a>  
-          </div>
-          <div class="col-xs-1" id="trial">   
-            <a href="forum.html" class="navbarText" id="navbar_a"></br><b>Apply</b></a>
-          </div>
-          <div class="col-sm-1" id="trial"> 
-          </div>
-          </div>
         </div>
-        
-        <div class="row" style="height: 23%;">
-        </div>
-
-      
-
-    <div class="container-fluid">
-      <div class="row">
-        <div class="parallax">  
-          <img src="Images/cropProfile2.jpg" id="parallaxImage">
-        </div>
-      <div class="bottom-left">
-        <p id="bottom-left-title">
-          <b>
-          About us
-          </b>
-        </p>
-      </div>
-      <div class="bottom-left-2">       
-        <p id="bottom-left-text">
-          A community of coders working together to achieve great things
-        </p>
-      </div> 
-      </div>
-    </div>
-    <div class="container-fluid aboutUsBody">
-      <div class="row">
-       <div class="col-sm-8">
-         <p class="aboutUsText-title">
-         </br>
-          <b>
-           About us
-          </b>
-         </p>
-         <p class="aboutUsText">
-          The Creative Coding Collective is the first cohort of the Creative Coding Porgram ran by Maiona Coding and The Albany. We have come together on this project to share what we have learnt so far and also encourage those who are interested in coding and tech to join our coding community, while also giving future participants a platform to express their creativity.
-         </p>
-       </div>
-       <div class="col-sm-4">
-       </br>
-       </br>
-       </br>
-        <div class="tab">
-          <button class="tablinks" onclick="openCity(event, 'Cohorts')" id="defaultOpen">Cohorts</button>
-          <button class="tablinks" onclick="openCity(event, 'Location')">Location</button>
-          <button class="tablinks" onclick="openCity(event, 'Members')">Members</button>
-        </div>
-        
-        <div id="Cohorts" class="tabcontent">
-          <h3 class="tabtext-title"><b>Cohorts</b></h3>
-          <p class="tabtext">
-            • October 2020: Completed
-             </br>
-             • May 2021: Open
-          </p>
-        </div>
-        
-        <div id="Location" class="tabcontent">
-          <h3>Location</h3>
-          <div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2484.936335942289!2d-0.02974458482280387!3d51.47768287963018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487602f40248b4ef%3A0xa69a55b3b66903b6!2sThe%20Albany!5e0!3m2!1sen!2suk!4v1620822191756!5m2!1sen!2suk" width="90%" height="80%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-          </div> 
-        </div>
-        
-        <div id="Members" class="tabcontent">
-          <h3>Members</h3>
-          <p class="tabtext">• Lauryn Yowa:
-            <a target="_blank" href="https://github.com/LaurynY">Github</a>
-          </br>
-             • Harry Abidakun:
-             <a target="_blank" href="https://github.com/lorenzz-glee">Github</a>
-          </br>
-             • Isaac Walker:
-             <a href="https://github.com/Piesaac">Github</a>
-          </br>
-             • Ruari Buckley:
-             <a target="_blank" href="https://github.com/Ruari1999">Github</a>
-          </br>
-             • Sonny Sheridan:
-             <a target="_blank" href="https://github.com/shers003">Github</a>
-          </br>
-             • Kacper Sierakowski:
-            <a target="_blank" href="https://github.com/kski2">Github</a>
-          </p>
-        </div>
-       </div>
-      </div>
-    </div>
-    <footer>
-      <img src="Images/letterHead.png" width="100%">
-    </footer>
-
+        <footer>
+          <img src="images/letterHead.png" width="100%">
+        </footer>
     </body>
-
-    </html>
+</html>
